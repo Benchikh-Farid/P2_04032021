@@ -509,7 +509,7 @@ a{
 display: block;
 }
 .first-column{
-  display: flex;
+  /* display: flex; */
   width: 66%;
   margin-right: 0em;
 }
@@ -519,13 +519,13 @@ display: block;
 }
 
 .second-column .box-activ1{
-  margin-top: 0px;
-  margin-left: 2em;
+  /* margin-top: 0px; */
+  /* margin-left: 2em; */
   margin-right: 0px;
 }
 
 .second-column{
-  display: flex;
+  /* display: flex; */
   width: 66%;
 }
 .flex-activity img{
