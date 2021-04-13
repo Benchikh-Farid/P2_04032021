@@ -468,7 +468,7 @@ a{
 
 /* ************** ipad ************** */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 731px) and (max-width: 1024px) {
   .corps{
     flex-direction: column-reverse;
   }
@@ -741,6 +741,7 @@ font-size: 1.2em;
   align-items: center;
 }
 .first-column, .second-column{
+  flex-direction: column;
   width: 80%;
   margin: 0px;
 }
