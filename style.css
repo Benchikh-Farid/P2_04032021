@@ -505,9 +505,6 @@ a{
 }
 /* ******* activité ******** */
 
-/* .flex-activity{
-display: block;
-} */
 .first-column{
   width: 100%;
   margin-right: 0em;
@@ -550,12 +547,11 @@ display: block;
 .box-activ2{
   margin: 0px;
   margin-top: 2em;
-  /* width: 50%; */
+  
 }
 .box-activ1{
   margin-top: 2em;
-  /* width: 50%; */
-  /* margin-right: 2em; */
+  
 }
 
 .bigbox{
