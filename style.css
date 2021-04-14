@@ -505,13 +505,13 @@ a{
 }
 /* ******* activité ******** */
 
-.flex-activity{
+/* .flex-activity{
 display: block;
-}
+} */
 .first-column{
-  /* display: flex; */
-  width: 66%;
+  width: 100%;
   margin-right: 0em;
+  margin-left: 0px;
 }
 
 .first-column .box-activ1{
@@ -519,22 +519,24 @@ display: block;
 }
 
 .second-column .box-activ1{
-  /* margin-top: 0px; */
-  /* margin-left: 2em; */
   margin-right: 0px;
 }
 
 .second-column{
-  /* display: flex; */
-  width: 66%;
+  width: 100%;
+  margin-left: 0px;
 }
+
 .flex-activity img{
   height: 200px;
 }
 
 .ligne-activ{
+  flex-direction: column;
   width: 100%;
   margin-top: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 .flex-activity .box-activ1 img{
@@ -547,15 +549,17 @@ display: block;
 
 .box-activ2{
   margin: 0px;
-  width: 50%;
+  margin-top: 2em;
+  /* width: 50%; */
 }
 .box-activ1{
-  width: 50%;
-  margin-right: 2em;
+  margin-top: 2em;
+  /* width: 50%; */
+  /* margin-right: 2em; */
 }
 
 .bigbox{
-  width: 30%;
+  width: 100%;
 }
 }
 
